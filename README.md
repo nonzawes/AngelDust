@@ -1,2 +1,5 @@
 # AngelDust
-i dont liek rusky carabiniers but im one of those
+1-header
+2-links
+3-background image
+4-css siling medio decent
