@@ -1,0 +1,46 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0.4;
+  font-size: 2vw;
+  font-family: "papyrus", "Copperplate Gothic Light", Arial, Helvetica,
+    sans-serif;
+  transition: 500ms cubic-bezier(0.39, 0.575, 0.565, 1), 1500ms transform;
+  color: crimson;
+}
+
+.grid_container {
+  display: grid;
+  background-color: #c4aecb;
+  grid-template-columns: 50%;
+  row-gap: 2%;
+  justify-content: center;
+}
+
+.btn1 {
+  display: flex;
+
+  transition: 600ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  justify-content: center;
+  align-items: center;
+  border-radius: 5vw;
+  font-family: "Papyrus", Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+  opacity: 1;
+  color: rgb(142, 11, 194);
+}
+
+.btn1:hover {
+  box-shadow: 0vw 0vw 10vw 16vw hsla(323, 87%, 50%, 0.2);
+  background-color: hsla(323, 87%, 50%, 0.2);
+  opacity: 1;
+  font-size: 5vw;
+  color: black;
+}
+.head:hover {
+  font-size: 4vw;
+  opacity: 0.7;
+  transition: 600ms cubic-bezier(0.39, 0.575, 0.565, 1);
+}
